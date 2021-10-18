@@ -55,7 +55,8 @@ a {
 }
 
 .container {
-  /* max-width: 1310px; */
+  width: 100%;
+  max-width: 1140px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -72,11 +73,11 @@ a {
   color: #33323D;
   background-color: var(--color-ffffff);
   border: 1px solid var(--color-33323d);
-  transition: all 0.3s ease ;
-  -webkit-transition: all 0.3s ease ;
-  -moz-transition: all 0.3s ease ;
-  -ms-transition: all 0.3s ease ;
-  -o-transition: all 0.3s ease ;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 .btn:hover {
